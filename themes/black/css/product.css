@@ -1,0 +1,47 @@
+.rollBox img{border:none;}
+.rollBox{width:660px;overflow:hidden;margin:0 auto;}
+.rollBox .Cont{width:615px;overflow:hidden;margin-left:0 auto;padding-top:10px;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:200px;float:left;text-align:center;padding-right:5px;}
+*+html .rollBox .Cont .pic{width:202px;float:left;text-align:center;padding-right:10px;}
+.rollBox .Cont .pic img{padding:4px;background:#fff;border:1px solid #ccc;display:block;margin:0 auto;}
+.rollBox .Cont .pic p{line-height:26px;color:#505050;}
+.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;text-decoration:underline;}
+.rollBox #List1,.rollBox #List2{float:left;}
+.img1,.img2,.Cont{float:left;}
+.img1,.img2{
+width:25px;
+height:115px;
+display:block;
+cursor:pointer;
+margin-top:10px;
+}
+.img1{
+background-image:url(../images/left.jpg);
+background-repeat: no-repeat;
+background-position: center center;}
+.img2{
+background-image:url(../images/right.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+
+
+.planbg {
+    BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; MARGIN: 8px 3px 2px; WIDTH: 154px; DISPLAY: inline; FLOAT: left; HEIGHT: 210px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+.plancontent {
+    WIDTH: 150px; BACKGROUND: #fff; HEIGHT: 200px
+}
+.planpic {
+    MARGIN: 9px auto; WIDTH: 138px; HEIGHT: 128px
+}
+.planpic img {
+    WIDTH: 138px; HEIGHT: 128px; OVERFLOW: hidden
+}
+.plandetail {
+    TEXT-ALIGN: left; LINE-HEIGHT: 18px; MARGIN: 5px auto; WIDTH: 138px; HEIGHT: 100px; COLOR: #333; OVERFLOW: hidden
+}

@@ -1,0 +1,79 @@
+#nav-bar { line-height:35px; height:35px; background:url(nav_bg.jpg) no-repeat 0 100% #666e73; padding-left:15px;}
+#nav { float:left; margin:0;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0; position: relative;}
+
+/************** ALL LEVELS  *************/
+#nav li {text-align:left; position:relative;cursor:pointer}
+#nav li.over { z-index:99; }
+#nav li.active { z-index:100; }
+#nav a,
+#nav a:hover { display:block; text-decoration:none; }
+#nav span { display:block; font-weight: bolder;}
+#nav a { line-height:1.3em;}
+#nav ul li span{font-weight: lighter; padding-left: 32px; padding-right: 20px;}
+
+
+/************ 1ST LEVEL  ***************/
+#nav li { float:left; background:url(nav1_sep.gif) no-repeat 100% 0;  text-align:center; padding: 0 0; min-width:115px; _width:115px;cursor:pointer}
+#nav ul li {width:auto; text-align:center; padding: 0 10px; float: none;cursor:pointer}
+#nav li.active { margin-left:-1px; background:url(nav1_active.jpg) no-repeat; color:#fff; font-weight:bold;cursor:pointer}
+#nav li.active em { display:block; position:absolute; top:0;cursor:pointer }
+#nav a {margin:0; color:#fff; line-height:35px;cursor:pointer}
+#nav li.over a {background:url(nav1_active.jpg) no-repeat;cursor:pointer}
+
+
+/************ 1ST LEVEL RESET ************/
+#nav ul li{cursor:pointer;}
+#nav ul li.active { list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0; float:none; height:auto; background:none; margin:0;line-height:30px; height:30px; }
+#nav ul a,
+#nav ul a:hover { float:none; min-width:115px; _width:115px; line-height:1.3em;line-height:30px; height:30px; text-align: left;}
+#nav ul li.over a,
+#nav ul li.over a:hover,
+#nav ul a,
+#nav li.active li { font-weight:normal;line-height:30px; height:30px; }
+
+
+/************ 2ND LEVEL ************/
+#nav ul { list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0 0 0px 0; position:absolute; min-width:115px; -width:115px;
+ top:35px; left:-10000px;}
+#nav ul ul  { list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0px 0 0 0; border-top:0; background:url(nav3_bg.png) 0 0 no-repeat; left:0px; top:0px; }
+
+/* Show menu */
+#nav li.over ul { left:0px; }
+#nav li.over ul ul { left:-10000px; }
+#nav li.over ul li.over ul { left:100px; }
+
+#nav ul li {background:url(nav2_li_bg.png) repeat-y; padding:0 0px; }
+#nav ul li a { color:#0069be;}
+#nav li.over li a,
+#nav li.over li a { background:#fff;}
+
+
+#nav ul li.active a,
+#nav ul li a:hover {color:#ffffff;background:#0069be;}
+
+#nav ul span,
+#nav ul li.last li span { line-height:30px; height:30px; background:url(nav2_link_bg.gif) repeat-x 0 100%;}
+#nav ul li.last span,
+#nav ul li.last li.last span { }
+#nav ul li.last { background:url(nav2_last_li_bg.png) no-repeat 0 100%; padding-bottom:0px; }
+
+
+#nav ul li.parent a,
+#nav ul li.parent li.parent a { background-image:url(nav2_parent_arrow.gif); background-position:100% 100%; background-repeat:no-repeat; }
+#nav ul li.parent li a,
+#nav ul li.parent li.parent li a { background-image:none; }
+
+/************ 3RD+ LEVEL ************/
+/* Cursors */
+
+#nav li.parent li a,
+#nav li.parent li.parent li a,
+#nav li.parent li.parent li.parent li a { cursor:pointer; }
+
+/* Show menu */
+#nav ul ul ul { left:-10000px; list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0; }
+#nav li.over ul li.over ul ul { left:-10000px;}
+#nav li.over ul li.over ul li.over ul { left:100px; }
+
+#nav-container{width: 836px; clear:both;}
+#nav-bar:after, #nav-container:after { content:"."; display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }

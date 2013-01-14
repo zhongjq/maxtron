@@ -1,0 +1,5 @@
+.nk-header_search_input_gradient, .nk-header_search_button_gradient {
+background-color: #789DC7;
+background: -moz-linear-gradient(100% 100% 90deg,#3A5E97,#5787BA);
+background: -webkit-gradient(linear,0% 0,0% 100%,from(#5787BA),to(#3A5E97));
+}

@@ -1,0 +1,28 @@
+﻿<data>
+  <!--  如果为 1打开坐标查询 0关闭 -->
+  <local>0</local>
+  
+  <!--  minImage上面的小图   maxImage下面的大图   name项目名称   markX,markY标注坐标  moveX,moveY地图对应的坐标  arrow箭头方向0为向下1为向上   phone电话号码  address项目地址  type类型0为红圈1为黄圈   links链接地址 不填则不显示链接按钮  -->
+ <item minImage="/themes/black/stream/image/yj.jpg" maxImage="/themes/black/stream/image/yj.jpg" name="阳江华科国际家居生活广场" markX="195" markY="265" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="广东省阳江市阳东县"  type="0"  links="/index.php/product/show?id=80" typeName="阳江"></item>
+<!--
+  
+   <item minImage="image/007.jpg" maxImage="image/007.jpg" name="山东华科国际" markX="210" markY="180" moveX="-20" moveY="-65" arrow="0" phone="热线：0755-25061111" address="深圳市盐田区大梅沙盐葵路2号"  type="1"  links="/house/vegavilla.shtml" typeName="山东"></item>
+--> 
+   <item minImage="/themes/black/stream/image/hf.jpg" maxImage="/themes/black/stream/image/hf.jpg" name="合肥用世生活城" markX="205" markY="215" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="合肥"  type="0"  links="/index.php/product/show?id=198" typeName="山东"></item>
+   
+    <item minImage="/themes/black/stream/image/ss.jpg" maxImage="/themes/black/stream/image/ss.jpg" name="江苏宿迁水韵城" markX="215" markY="205" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="江苏宿迁水韵城"  type="0"  links="/index.php/product/show?id=199" typeName="江苏"></item>
+	
+	 <item minImage="/themes/black/stream/image/zs.jpg" maxImage="/themes/black/stream/image/zs.jpg" name="台州新明国际家居生活广场" markX="228" markY="228" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="浙江省舟山市"  type="0"  links="/index.php/product/show?id=196" typeName="浙江"></item>
+	 
+	 <item minImage="/themes/black/stream/image/tz.jpg" maxImage="/themes/black/stream/image/tz.jpg" name="舟山科来华红星美凯龙家居生活广场" markX="235" markY="220" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="浙江省台州市椒江区"  type="0"  links="/index.php/product/show?id=197" typeName="浙江"></item>
+	 
+	  <item minImage="/themes/black/stream/image/ph.jpg" maxImage="/themes/black/stream/image/ph.jpg" name="平湖中国服装城" markX="225" markY="215" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999 " address="浙江省平湖市"  type="0"  links="/index.php/product/show?id=194" typeName="浙江"></item>
+
+
+	  <item minImage="image/007.jpg" maxImage="image/tz.jpg" name="贵州华科国际" markX="170" markY="240" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999" address="华科在贵州"  type="0"  links="/house/vegavilla.shtml" typeName="贵州"> </item>
+  
+	  <item minImage="image/007.jpg" maxImage="image/ss.jpg" name="四川华科国际" markX="160" markY="220" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999" address="华科在四川"  type="0"  links="/house/vegavilla.shtml" typeName="四川"></item>
+
+<item minImage="image/007.jpg" maxImage="image/hf.jpg" name="华科在沈阳" markX="235" markY="150" moveX="-20" moveY="-65" arrow="0" phone="热线：0662-6899999" address="华科在沈阳"  type="0"  links="/house/vegavilla.shtml" typeName="沈阳"></item>
+
+</data>

@@ -1,0 +1,1 @@
+<?php echo CHtml::image(Yii::app()->theme->baseUrl .'/images/flow.jpg', '', array('style'=> 'padding:0 10px'));?>

@@ -1,0 +1,58 @@
+
+.tianbiao_s {
+	PADDING-BOTTOM: 25px; WIDTH: 695px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 15px; font-size:12px;
+}
+INPUT.inputtxt06 {
+	BORDER-BOTTOM: #dfdfdf 1px solid; BORDER-LEFT: 0px; LINE-HEIGHT: 15px; WIDTH: 156px; HEIGHT: 15px; COLOR: #0f95e3; FONT-SIZE: 12px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE.tbl10 {
+	MARGIN-BOTTOM: 12px; COLOR: #333333; OVERFLOW: hidden
+}
+TABLE.tbl12 {
+	BORDER-LEFT: #dfdfdf 1px solid; BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid
+}
+TABLE.tbl13 TD {
+	BORDER-LEFT: #dfdfdf 1px solid; BORDER-TOP: #dfdfdf 1px solid
+}
+TD.td03 {
+	BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid
+}
+SPAN.red {
+	PADDING-LEFT: 19px; FLOAT: left; COLOR: #ff0000
+}
+SPAN.td01 {
+	PADDING-LEFT: 19px; FLOAT: left; COLOR: #333333
+}
+SPAN.td02 {
+	PADDING-LEFT: 8px; FLOAT: left; COLOR: #333333
+}
+INPUT.inputtxt07 {
+	LINE-HEIGHT: 15px; WIDTH: 178px; HEIGHT: 15px
+}
+SELECT.select03 {
+	WIDTH: 67px; HEIGHT: 20px
+}
+INPUT.inputtxt08 {
+	LINE-HEIGHT: 15px; WIDTH: 50px; HEIGHT: 15px
+}
+TABLE.tbl14 TD {
+	BORDER-LEFT: #dfdfdf 1px solid; BORDER-TOP: #dfdfdf 1px solid
+}
+INPUT.inputtxt09 {
+	LINE-HEIGHT: 15px; WIDTH: 490px; HEIGHT: 15px
+}
+INPUT.submit04 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 61px; BACKGROUND: url(../images/showbtn.jpg) no-repeat 0px 0px; HEIGHT: 21px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+SPAN.td04 {
+	PADDING-LEFT: 19px; FLOAT: left; COLOR: #333333
+}
+TEXTAREA.textarea02 {
+	WIDTH: 525px; HEIGHT: 77px
+}
+INPUT.submit05 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 79px; BACKGROUND: url(../images/tijiaobutton.jpg) no-repeat 0px 0px; HEIGHT: 24px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+TEXTAREA.textarea01 {
+	BORDER-BOTTOM: #b5b9bb 1px solid; BORDER-LEFT: #b5b9bb 1px solid; WIDTH: 575px; HEIGHT: 74px; BORDER-TOP: #b5b9bb 1px solid; BORDER-RIGHT: #b5b9bb 1px solid
+}
