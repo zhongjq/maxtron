@@ -75,7 +75,7 @@ pName:"home",
     				<a href="/" title="maxtron"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/home_icon.png?v=0" alt="maxtron" title="maxtron" /></a></div>
     		</li>
     		
-    		<li id="nk-li-products"><div class="nk-li_content"><a href="/cn-zh/products/products/">Product</a></div>
+    		<li id="nk-li-products"><div class="nk-li_content"><a href="<?=$this->createUrl('/product');?>">Product</a></div>
     						<div id="nk-prd-drop-cont-products" class="nk-prd-drop-cont">
     		<ul id="nk-prd-drop-list-products" class="nk-b-border nk-drop-shadow nk-prd-drop-list">
     			<li 
@@ -115,11 +115,11 @@ pName:"home",
     		});
     	</script>
     </li>
-    			    <li id="nk-li-apps"><div class="nk-li_content"><a href="/cn-zh/apps/">Application</a></div>
+    			    <li id="nk-li-apps"><div class="nk-li_content"><a href="#">Application</a></div>
     						</li>
-    			    <li id="nk-li-support"><div class="nk-li_content"><a href="/cn-zh/support/">Support</a></div>
+    			    <li id="nk-li-support"><div class="nk-li_content"><a href="#">Support</a></div>
     						</li>
-    			    <li id="nk-li-support"><div class="nk-li_content"><a href="/cn-zh/support/">Community</a></div>
+    			    <li id="nk-li-support"><div class="nk-li_content"><a href="#">Community</a></div>
     						</li>
     			    <li class="nk-bg_menu_empty"><div class="nk-li_content"></div></li>
     		<li id="nk-li-search" class="nk-search_rounding">

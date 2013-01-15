@@ -1,4 +1,5 @@
 <?php
+phpinfo();exit;
 /**
  * 抓取多页面
  *

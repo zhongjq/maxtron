@@ -1,6 +1,8 @@
 <div class="content_title">
 	<?php echo $this->title?>
 </div>
+
+
 <div class="products">
     <?php foreach($models as $n=>$model): ?>
 		<div class="feat_prod_box">

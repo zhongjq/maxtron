@@ -15,34 +15,6 @@ class ProductController extends Controller
 	    $this->breadcrumbs[] = '华科产品';
 	}
 
-	public function actionIndex()
-	{
-		$criteria=new CDbCriteria;
-
-		$this->title = 'Products * Select your favorite theme from the products catalogue at left.';
-
-		$view = 'index';
-
-		$pages=new CPagination(product::model()->count($criteria));
-		$pages->pageSize=self::PAGE_SIZE;
-		$pages->applyLimit($criteria);
-
-		$models=product::model()->findAll($criteria);
-
-
-		/*
-		$this->render('index',array(
-			'models'=>$models,
-			'pages'=>$pages,
-		));
-		*/
-		$this->render($view,array(
-			'models'=>$models,
-			'pages'=>$pages,
-		));
-
-	}
-
 
 	public function actionNew()
 	{
@@ -70,32 +42,32 @@ class ProductController extends Controller
 		$view = 'index';
 		$this->title = 'products';
 
-		if(!empty($_GET['cate_id']))
+        $cate_id = !empty($_GET['cate_id']) ? $_GET['cate_id'] : 4;
+		
+		$this->cate_id = $cate_id; 
+		$cate = tree::model()->findByPk($cate_id);
+		if(!empty($cate))
 		{
-			$this->cate_id  = $cate_id = $_GET['cate_id'];
-			$cate = tree::model()->findByPk($cate_id);
-			if(!empty($cate))
+			//分类标题
+			$this->title = $cate->name;
+			//指定类别
+			$criteria->condition = "cate_id = $cate_id";
+			//是否有子类
+			$childrens = $cate->getChildNodes();
+			if(!empty($childrens))
 			{
-				//分类标题
-				$this->title = $cate->name;
-				//指定类别
-				$criteria->condition = "cate_id = $cate_id";
-				//是否有子类
-				$childrens = $cate->getChildNodes();
-				if(!empty($childrens))
+				foreach($childrens as $child)
 				{
-					foreach($childrens as $child)
-					{
-						$cate_id = $child->id;
-						$criteria->condition .= " OR cate_id = $cate_id";
-					}
+					$cate_id = $child->id;
+					$criteria->condition .= " OR cate_id = $cate_id";
 				}
 			}
-			else
-			{
-				$_GET['cate_id'] ='';
-			}
 		}
+		else
+		{
+			$_GET['cate_id'] ='';
+		}
+		
         $criteria->addCondition("state=1");
 		if(!empty($_GET['keyword']))
 		{
@@ -113,6 +85,7 @@ class ProductController extends Controller
 		$this->render($view,array(
 			'models'=>$models,
 			'pages'=>$pages,
+		    'cates'=>$childrens,
 		));
 
 	}

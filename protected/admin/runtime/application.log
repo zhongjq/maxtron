@@ -4789,3 +4789,182 @@ Stack trace:
 #11 /Users/zhonghitoshiakira/Sites/yii/base/CApplication.php(155): CWebApplication->processRequest()
 #12 /Users/zhonghitoshiakira/Sites/maxtron/admin.php(11): CApplication->run()
 #13 {main} REQUEST_URI=/admin.php/product/show?id=194
+2013/01/15 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:55:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:56:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 09:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin
+2013/01/15 09:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 10:00:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/admin/
+2013/01/15 10:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/
+2013/01/15 10:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/system"。' in D:\website\other\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/system')
+#1 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\website\maxtron\admin.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/maxtron/admin/system
+2013/01/15 10:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "srbac.css" 动作.' in D:\website\other\framework\web\CController.php:477
+Stack trace:
+#0 D:\website\other\framework\web\CController.php(262): CController->missingAction('srbac.css')
+#1 D:\website\other\framework\web\CWebApplication.php(328): CController->run('srbac.css')
+#2 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('srbac/authitem/...')
+#3 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\website\maxtron\admin.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/maxtron/admin.php/srbac/authitem/srbac.css
+2013/01/15 10:38:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'.
+2013/01/15 10:38:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'' in D:\website\other\framework\db\CDbCommand.php:338
+Stack trace:
+#0 D:\website\other\framework\web\auth\CDbAuthManager.php(150): CDbCommand->execute()
+#1 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(108): CDbAuthManager->addItemChild('???????????????', '????????????')
+#2 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(200): AuthitemController->_assignChild('???????????????', Array)
+#3 D:\website\other\framework\web\actions\CInlineAction.php(50): AuthitemController->actionAssign()
+#4 D:\website\other\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\website\other\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\website\other\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\website\other\framework\web\CWebApplication.php(328): CController->run('assign')
+#8 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('srbac/authitem/...')
+#9 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\website\maxtron\admin.php(11): CApplication->run()
+#11 {main} REQUEST_URI=/maxtron/admin.php/srbac/authitem/assign/assignTasks/1
+2013/01/15 10:38:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'.
+2013/01/15 10:38:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'' in D:\website\other\framework\db\CDbCommand.php:338
+Stack trace:
+#0 D:\website\other\framework\web\auth\CDbAuthManager.php(150): CDbCommand->execute()
+#1 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(108): CDbAuthManager->addItemChild('???????????????', '????????????')
+#2 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(200): AuthitemController->_assignChild('???????????????', Array)
+#3 D:\website\other\framework\web\actions\CInlineAction.php(50): AuthitemController->actionAssign()
+#4 D:\website\other\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\website\other\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\website\other\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\website\other\framework\web\CWebApplication.php(328): CController->run('assign')
+#8 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('srbac/authitem/...')
+#9 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\website\maxtron\admin.php(11): CApplication->run()
+#11 {main} REQUEST_URI=/maxtron/admin.php/srbac/authitem/assign/assignTasks/1
+2013/01/15 10:38:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'.
+2013/01/15 10:38:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '系统管理员-分类管理' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO maxtron_AuthItemChild (parent,child) VALUES (:parent,:child). Bound with :parent='系统管理员', :child='分类管理'' in D:\website\other\framework\db\CDbCommand.php:338
+Stack trace:
+#0 D:\website\other\framework\web\auth\CDbAuthManager.php(150): CDbCommand->execute()
+#1 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(108): CDbAuthManager->addItemChild('???????????????', '????????????')
+#2 D:\website\maxtron\protected\modules\srbac\controllers\AuthitemController.php(200): AuthitemController->_assignChild('???????????????', Array)
+#3 D:\website\other\framework\web\actions\CInlineAction.php(50): AuthitemController->actionAssign()
+#4 D:\website\other\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\website\other\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 D:\website\other\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\website\other\framework\web\CWebApplication.php(328): CController->run('assign')
+#8 D:\website\other\framework\web\CWebApplication.php(121): CWebApplication->runController('srbac/authitem/...')
+#9 D:\website\other\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\website\maxtron\admin.php(11): CApplication->run()
+#11 {main} REQUEST_URI=/maxtron/admin.php/srbac/authitem/assign/assignTasks/1
