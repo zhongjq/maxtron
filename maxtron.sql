@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: 127.0.0.1
--- 生成日期: 2013 年 01 月 14 日 20:10
+-- 生成日期: 2013 年 01 月 15 日 22:48
 -- 服务器版本: 5.5.28
 -- PHP 版本: 5.3.15
 
@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- 表的结构 `ad`
+-- 表的结构 `maxtron_ad`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_ad` (
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_ad` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=60 ;
 
 --
--- 转存表中的数据 `ad`
+-- 转存表中的数据 `maxtron_ad`
 --
 
 INSERT INTO `maxtron_ad` (`id`, `cate_id`, `url`, `title`, `sort`, `icon`) VALUES
@@ -70,16 +70,12 @@ INSERT INTO `maxtron_ad` (`id`, `cate_id`, `url`, `title`, `sort`, `icon`) VALUE
 (50, 18, '0', '中央、省市县各级领导出席华科国际开工典礼', 0, '/uploads/images/bgzy/lingdao/2012024.jpg'),
 (51, 18, '0', '华科集团董事长林乃科参加阳江市建材装饰协会年会，并与“优秀会员单位”合影', 0, '/uploads/images/bgzy/lingdao/2012025.jpg'),
 (52, 18, '0', '阳江市副市长岑国健，阳东县委书记王作雄参加华科国际开工典礼，与华科集团董事长林乃科进行交流', 0, '/uploads/images/bgzy/lingdao/2012026.jpg'),
-(53, 18, '0', '在阳江市建材装饰协会年会上，华科集团董事长林乃科为获得“优秀会员单位”的商户颁发荣誉', 0, '/uploads/images/bgzy/lingdao/2012027.jpg'),
-(54, 18, '0', '作为阳东县招商引资重点项目，华科国际隆重举行开工典礼，项目落地后阳东县县长雷双富与华科集团董事长林乃科都笑容满面', 0, '/uploads/images/bgzy/lingdao/2012028.jpg'),
-(55, 18, '0', '在签署入驻华科国际家居生活广场协议后，居然之家董事长张学武（中）、总裁汪林朋（左）与华科集团董事长林乃科（右）合影留念', 0, '/uploads/images/bgzy/lingdao/2012029.jpg'),
-(59, 18, '0', '华科集团董事长林乃科向前来考察的广百股份总经理黄永志一行讲解华科国际项目规划', 0, '/uploads/images/bgzy/lingdao/2012031.jpg'),
-(57, 18, '0', '中国商业联合会秘书长骆毓龙参加华科国际开工典礼，对于项目的开工表示祝贺，并与华科集团董事长林乃科亲切合影', 0, '/uploads/images/bgzy/lingdao/2012030.jpg');
+(53, 18, '0', '在阳江市建材装饰协会年会上，华科集团董事长林乃科为获得“优秀会员单位”的商户颁发荣誉', 0, '/uploads/images/bgzy/lingdao/2012027.jpg');
 
 -- --------------------------------------------------------
 
 --
--- 表的结构 `authassignment`
+-- 表的结构 `maxtron_authassignment`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_authassignment` (
@@ -91,7 +87,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_authassignment` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- 转存表中的数据 `authassignment`
+-- 转存表中的数据 `maxtron_authassignment`
 --
 
 INSERT INTO `maxtron_authassignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES
@@ -102,7 +98,7 @@ INSERT INTO `maxtron_authassignment` (`itemname`, `userid`, `bizrule`, `data`) V
 -- --------------------------------------------------------
 
 --
--- 表的结构 `authitem`
+-- 表的结构 `maxtron_authitem`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_authitem` (
@@ -115,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_authitem` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- 转存表中的数据 `authitem`
+-- 转存表中的数据 `maxtron_authitem`
 --
 
 INSERT INTO `maxtron_authitem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
@@ -224,7 +220,7 @@ INSERT INTO `maxtron_authitem` (`name`, `type`, `description`, `bizrule`, `data`
 -- --------------------------------------------------------
 
 --
--- 表的结构 `authitemchild`
+-- 表的结构 `maxtron_authitemchild`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_authitemchild` (
@@ -234,7 +230,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_authitemchild` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- 转存表中的数据 `authitemchild`
+-- 转存表中的数据 `maxtron_authitemchild`
 --
 
 INSERT INTO `maxtron_authitemchild` (`parent`, `child`) VALUES
@@ -332,7 +328,7 @@ INSERT INTO `maxtron_authitemchild` (`parent`, `child`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的结构 `content`
+-- 表的结构 `maxtron_content`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_content` (
@@ -346,7 +342,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_content` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
 
 --
--- 转存表中的数据 `content`
+-- 转存表中的数据 `maxtron_content`
 --
 
 INSERT INTO `maxtron_content` (`id`, `cate_id`, `icon`, `title`, `content`, `sort`) VALUES
@@ -368,7 +364,7 @@ INSERT INTO `maxtron_content` (`id`, `cate_id`, `icon`, `title`, `content`, `sor
 -- --------------------------------------------------------
 
 --
--- 表的结构 `download`
+-- 表的结构 `maxtron_download`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_download` (
@@ -385,7 +381,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_download` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
--- 转存表中的数据 `download`
+-- 转存表中的数据 `maxtron_download`
 --
 
 INSERT INTO `maxtron_download` (`id`, `cate_id`, `url`, `title`, `issuer`, `issue_date`, `sort`, `icon`, `download`) VALUES
@@ -396,7 +392,7 @@ INSERT INTO `maxtron_download` (`id`, `cate_id`, `url`, `title`, `issuer`, `issu
 -- --------------------------------------------------------
 
 --
--- 表的结构 `guestbook`
+-- 表的结构 `maxtron_guestbook`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_guestbook` (
@@ -423,7 +419,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_guestbook` (
 -- --------------------------------------------------------
 
 --
--- 表的结构 `jobs`
+-- 表的结构 `maxtron_jobs`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_jobs` (
@@ -442,7 +438,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_jobs` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
--- 转存表中的数据 `jobs`
+-- 转存表中的数据 `maxtron_jobs`
 --
 
 INSERT INTO `maxtron_jobs` (`id`, `title`, `descript`, `number`, `createtime`, `start_date`, `end_date`, `sex`, `education`, `place`, `sort`) VALUES
@@ -457,7 +453,7 @@ INSERT INTO `maxtron_jobs` (`id`, `title`, `descript`, `number`, `createtime`, `
 -- --------------------------------------------------------
 
 --
--- 表的结构 `jobs_resume`
+-- 表的结构 `maxtron_jobs_resume`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_jobs_resume` (
@@ -491,7 +487,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_jobs_resume` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
 
 --
--- 转存表中的数据 `jobs_resume`
+-- 转存表中的数据 `maxtron_jobs_resume`
 --
 
 INSERT INTO `maxtron_jobs_resume` (`id`, `job_id`, `applicant`, `gender`, `birthday`, `native`, `tall`, `landscape`, `wedding`, `cer_type`, `cer_num`, `working_age`, `education`, `school`, `professional`, `hope_wage`, `p_company`, `p_post`, `p_wage`, `address`, `email`, `phone`, `work_ex`, `edu_ex`, `createtime`) VALUES
@@ -501,7 +497,7 @@ INSERT INTO `maxtron_jobs_resume` (`id`, `job_id`, `applicant`, `gender`, `birth
 -- --------------------------------------------------------
 
 --
--- 表的结构 `notice`
+-- 表的结构 `maxtron_notice`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_notice` (
@@ -520,7 +516,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_notice` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=143 ;
 
 --
--- 转存表中的数据 `notice`
+-- 转存表中的数据 `maxtron_notice`
 --
 
 INSERT INTO `maxtron_notice` (`id`, `title`, `icon`, `content`, `cate_id`, `datetime`, `top`, `digest`, `state`, `sort`, `view`) VALUES
@@ -666,7 +662,7 @@ INSERT INTO `maxtron_notice` (`id`, `title`, `icon`, `content`, `cate_id`, `date
 -- --------------------------------------------------------
 
 --
--- 表的结构 `plan`
+-- 表的结构 `maxtron_plan`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_plan` (
@@ -684,7 +680,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_plan` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
--- 转存表中的数据 `plan`
+-- 转存表中的数据 `maxtron_plan`
 --
 
 INSERT INTO `maxtron_plan` (`id`, `uid`, `type`, `startdate`, `enddate`, `state`, `overdate`, `plan`, `memo`, `createtime`) VALUES
@@ -694,7 +690,7 @@ INSERT INTO `maxtron_plan` (`id`, `uid`, `type`, `startdate`, `enddate`, `state`
 -- --------------------------------------------------------
 
 --
--- 表的结构 `product`
+-- 表的结构 `maxtron_product`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_product` (
@@ -722,24 +718,25 @@ CREATE TABLE IF NOT EXISTS `maxtron_product` (
   `ebook_url` varchar(255) DEFAULT NULL,
   `ebook_name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=200 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=212 ;
 
 --
--- 转存表中的数据 `product`
+-- 转存表中的数据 `maxtron_product`
 --
 
 INSERT INTO `maxtron_product` (`id`, `cate_id`, `icon`, `title`, `summary`, `phone`, `content`, `issue_message`, `createtime`, `updatetime`, `top`, `digest`, `state`, `sort`, `sellout`, `date`, `hit`, `number`, `weight`, `ebook_picture`, `ebook_download`, `ebook_url`, `ebook_name`) VALUES
-(80, 4, '/uploads/images/pad.png', '平板电脑', '', '', '<pre><strong>开发时间：</strong>2011年 正在开发中&hellip;&hellip;</pre><pre><strong>项目位置：</strong>广东省阳江市\r\n<strong>占地面积：</strong>223674㎡\r\n<strong>建筑面积：</strong>50万㎡</pre>\r\n<p>\r\n	<strong><br />\r\n	项目概况：</strong><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">家居建材是每户家庭装修时必须购置的大宗商品，属刚性需求。据不完全统计，仅阳江地区就蕴含了上千亿家居建材市场需求；保守估计，未来十年内整个粤西南更是高达</span><span lang="EN-US" style="line-height: 150%; text-indent: 18pt; font-size: 9pt; ">3000</span><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">亿市场需求。面对强大的家居建材市场需求，而正处于快速发展中的阳江，包括周边地区竟然没有一家专业的家居建材市场。华科国际应势而生，填补市场空白！同时，市政府批复：在今后五年内不在安排或建设同类项目！</span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">以项目为核心的</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">分钟车程内，涵盖了核心商圈（阳春、阳西、电白、海陵岛、江城、阳东、恩平、台山靠近阳江的几个乡镇等）近</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">400</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万消费人群。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际雄踞粤西南中心枢纽城市&mdash;&mdash;阳江，地处约</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">6300</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡的滨海新城核心位置，阳江高速公路出口处，</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">40</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">米街宽的城市主干道广雅路和政府规划的华科南路以及华科北路在此相汇，项目四面环街。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际依托粤西南核心区位优势、珠三角产业转移和家居建材行业大升级的历史机遇，定位为&ldquo;</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡粤西南家居建材专业市场&rdquo;，是一个批发、零售相结合的，集商品交易、仓储物流、电子商务、金融服务、商务配套等十大主要功能于一体，涵盖家具、壁纸、卫浴、陶瓷、灯饰、五金、地板、橱柜、门业、窗帘布艺、家电、床上用品、工艺品、楼梯、石材、油漆、成型材、木业、餐饮娱乐、装潢中心、环境监测、仓储物流、商住配套等二十三大类丰富的业态，通过&ldquo;六大统一、十大保障、</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">3</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">年</span><span lang="EN-US" style="font-size:\r\n9.0pt;line-height:150%">2</span><span style="font-size:9.0pt;line-height:150%;\r\nfont-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">亿巨资市场推广和自持六成物业&rdquo;等措施，建成后将成为规模最大、档次最高、品种最齐全、产品最新颖、价格最合理、服务最完善的粤西南一站式家居建材专业大市场</span>。</p>\r\n<div align="center">\r\n	&nbsp;</div>\r\n<p>\r\n	&nbsp;</p>\r\n<hr />\r\n', '华科国际家居生活广场工程进度理想。目前，一期十五栋楼已经部分二层结顶、部分一层浇筑完成。展示中心地下室开发完成，1-14轴砖模完成。', 1329814049, 1357973895, 1, 1, 1, 6, 0, '2012-02-12', 1, '1', 'no', '/uploads/_thumbs/Images/pad.png', 'http://www.huakegroup.com/fla/gj/hkgj.rar', 'http://www.huakegroup.com/broche.html', '阳江华科国际生活家居广场'),
-(194, 4, '/uploads/images/pad.png', '平湖中国服装城', '40万㎡全球品牌服装集散中心', '', '<p>\r\n	<strong>项目位置：</strong>浙江省平湖市<br />\r\n	<strong>占地面积</strong>：约250亩<br />\r\n	<strong>建筑面积：</strong>40万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省嘉兴市平湖市，规划面积295亩，总规划建筑面积约40万㎡，已被列为浙江省重点建设项目、浙江省服务业重大项目、平湖市重点建设项目。依托于平湖本地强大的服装产业背景，项目将打造成集品牌展示、服装交易、订单批发、区域代理、连锁加盟、电子商务等多种模式于一体的全球品牌服装集散中心。</p>\r\n', '', 1328380947, 1357978844, 0, 1, 1, 3, 1, '2012-01-07', 1, '1', 'no', '', '', '', ''),
-(196, 4, '/uploads/images/pad.png', '舟山科来华红星美凯龙家居生活广场', '20万平方米shopping-mall式家居建材商城', '', '<p>\r\n	<strong>项目位置：</strong>浙江省舟山市<br />\r\n	<strong>占地面积：约</strong>200亩<br />\r\n	<strong>建筑面积：</strong>约20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省舟山市，总占地约200亩，总投资额约10亿元，总建筑面积达20万㎡，为舟山市规模最大的专业家居建材市场，是浙江省服务业重大项目，舟山市重点建设项目项目是集产品交易、设计、会展、仓储、休闲观光、科研及教育培训、电子商务、金融结算及商住配套等多功能于一体的综合型交易中心及大型家居&ldquo;Shopping Mall&rdquo;。</p>\r\n', '', 1328399487, 1357978823, 0, 1, 1, 4, 0, '2012-02-11', 1, '1', 'no', '', '', '', ''),
-(197, 4, '/uploads/images/xgt/yangjiang/tzlogo.jpg', '台州新明国际家居生活广场', '50万平方米浙东南家居建材第一市场', '', '<p>\r\n	<strong>项目位置：</strong>浙江省台州市椒江区<br />\r\n	<strong>占地面积：</strong>约350亩<br />\r\n	<strong>建筑面积：</strong>50万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省台州市，总占地约350亩，总投资额约20亿元，总建筑面积达50万㎡，为浙东南规模最大的家居建材专业市场。是浙江省服务业重大项目、台州市重大项目、台州市重点建设项目。引进国内家居建材行业第一品牌&mdash;&mdash;红星美凯龙作为主力店。</p>\r\n', '', 1328399570, 1357973909, 0, 0, 0, 5, 1, '2012-02-10', 1, '1', 'no', '', '', '', ''),
-(198, 4, '/uploads/images/logo%5B4%5D.jpg', '合肥用世生活城 ', '46万平方米运河式建材家居生活城', '', '<p>\r\n	<strong>项目位置：</strong>安徽省合肥市<br />\r\n	<strong>占地面积</strong>：约300亩<br />\r\n	<strong>建筑面积：</strong>46万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>投资愈20亿的用世生活城，占地300余亩，总建筑面积约46万平米，是一个世界级运河公园式家居生活商业城。项目集办公、会展、商贸、仓储、餐饮、娱乐等多种业态为一体。项目建成后，将为合肥的家居产业开辟全新的格局。</p>\r\n', '', 1328399679, 1357973908, 0, 0, 0, 1, 1, '2012-02-10', 1, '1', 'no', '', '', '', ''),
-(199, 4, '/uploads/images/logo%5B5%5D.jpg', '江苏宿迁水韵城', '20万平米文化休闲生活CBD', '', '<p>\r\n	<strong>项目位置：</strong>江苏省宿迁市<br />\r\n	<strong>占地面积</strong>：36833㎡<br />\r\n	<strong>建筑面积：</strong>20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>水韵城位于宿迁市宿城区西湖路，北至西湖路，南至沂沭泗，东临宝龙广场，西至富康路，项目总占地面积36833㎡，总建筑面积约20万㎡，是一个集购物、休闲、餐饮、娱乐、旅游、文化等为一体的休闲购物主题公园，项目投资约10亿元。</p>\r\n', '', 1328399722, 1357973904, 0, 0, 0, 2, 1, '2012-02-04', 1, '1', 'no', '', '', '', '');
+(80, 4, '/uploads/images/p1.png', '平板电脑', '平板电脑，10寸', '', '<pre><strong>开发时间：</strong>2011年 正在开发中&hellip;&hellip;</pre><pre><strong>项目位置：</strong>广东省阳江市\r\n<strong>占地面积：</strong>223674㎡\r\n<strong>建筑面积：</strong>50万㎡</pre>\r\n<p>\r\n	<strong><br />\r\n	项目概况：</strong><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">家居建材是每户家庭装修时必须购置的大宗商品，属刚性需求。据不完全统计，仅阳江地区就蕴含了上千亿家居建材市场需求；保守估计，未来十年内整个粤西南更是高达</span><span lang="EN-US" style="line-height: 150%; text-indent: 18pt; font-size: 9pt; ">3000</span><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">亿市场需求。面对强大的家居建材市场需求，而正处于快速发展中的阳江，包括周边地区竟然没有一家专业的家居建材市场。华科国际应势而生，填补市场空白！同时，市政府批复：在今后五年内不在安排或建设同类项目！</span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">以项目为核心的</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">分钟车程内，涵盖了核心商圈（阳春、阳西、电白、海陵岛、江城、阳东、恩平、台山靠近阳江的几个乡镇等）近</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">400</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万消费人群。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际雄踞粤西南中心枢纽城市&mdash;&mdash;阳江，地处约</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">6300</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡的滨海新城核心位置，阳江高速公路出口处，</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">40</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">米街宽的城市主干道广雅路和政府规划的华科南路以及华科北路在此相汇，项目四面环街。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际依托粤西南核心区位优势、珠三角产业转移和家居建材行业大升级的历史机遇，定位为&ldquo;</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡粤西南家居建材专业市场&rdquo;，是一个批发、零售相结合的，集商品交易、仓储物流、电子商务、金融服务、商务配套等十大主要功能于一体，涵盖家具、壁纸、卫浴、陶瓷、灯饰、五金、地板、橱柜、门业、窗帘布艺、家电、床上用品、工艺品、楼梯、石材、油漆、成型材、木业、餐饮娱乐、装潢中心、环境监测、仓储物流、商住配套等二十三大类丰富的业态，通过&ldquo;六大统一、十大保障、</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">3</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">年</span><span lang="EN-US" style="font-size:\r\n9.0pt;line-height:150%">2</span><span style="font-size:9.0pt;line-height:150%;\r\nfont-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">亿巨资市场推广和自持六成物业&rdquo;等措施，建成后将成为规模最大、档次最高、品种最齐全、产品最新颖、价格最合理、服务最完善的粤西南一站式家居建材专业大市场</span>。</p>\r\n<div align="center">\r\n	&nbsp;</div>\r\n<p>\r\n	&nbsp;</p>\r\n<hr />\r\n', '华科国际家居生活广场工程进度理想。目前，一期十五栋楼已经部分二层结顶、部分一层浇筑完成。展示中心地下室开发完成，1-14轴砖模完成。', 1329814049, 1358257267, 1, 1, 1, 6, 0, '2012-02-12', 1, '1', 'no', '/uploads/_thumbs/Images/pad.png', 'http://www.huakegroup.com/fla/gj/hkgj.rar', 'http://www.huakegroup.com/broche.html', '阳江华科国际生活家居广场'),
+(196, 4, '/uploads/images/p2.png', '平板电脑', '平板电脑，10寸', '', '<p>\r\n	<strong>项目位置：</strong>浙江省舟山市<br />\r\n	<strong>占地面积：约</strong>200亩<br />\r\n	<strong>建筑面积：</strong>约20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省舟山市，总占地约200亩，总投资额约10亿元，总建筑面积达20万㎡，为舟山市规模最大的专业家居建材市场，是浙江省服务业重大项目，舟山市重点建设项目项目是集产品交易、设计、会展、仓储、休闲观光、科研及教育培训、电子商务、金融结算及商住配套等多功能于一体的综合型交易中心及大型家居&ldquo;Shopping Mall&rdquo;。</p>\r\n', '', 1328399487, 1358258349, 0, 1, 1, 4, 0, '2012-02-11', 1, '1', 'no', '', '', '', ''),
+(200, 4, '/uploads/images/p2.png', '平板电脑', '平板电脑，10寸', '', '<pre><strong>开发时间：</strong>2011年 正在开发中&hellip;&hellip;</pre><pre><strong>项目位置：</strong>广东省阳江市\r\n<strong>占地面积：</strong>223674㎡\r\n<strong>建筑面积：</strong>50万㎡</pre>\r\n<p>\r\n	<strong><br />\r\n	项目概况：</strong><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">家居建材是每户家庭装修时必须购置的大宗商品，属刚性需求。据不完全统计，仅阳江地区就蕴含了上千亿家居建材市场需求；保守估计，未来十年内整个粤西南更是高达</span><span lang="EN-US" style="line-height: 150%; text-indent: 18pt; font-size: 9pt; ">3000</span><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">亿市场需求。面对强大的家居建材市场需求，而正处于快速发展中的阳江，包括周边地区竟然没有一家专业的家居建材市场。华科国际应势而生，填补市场空白！同时，市政府批复：在今后五年内不在安排或建设同类项目！</span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">以项目为核心的</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">分钟车程内，涵盖了核心商圈（阳春、阳西、电白、海陵岛、江城、阳东、恩平、台山靠近阳江的几个乡镇等）近</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">400</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万消费人群。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际雄踞粤西南中心枢纽城市&mdash;&mdash;阳江，地处约</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">6300</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡的滨海新城核心位置，阳江高速公路出口处，</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">40</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">米街宽的城市主干道广雅路和政府规划的华科南路以及华科北路在此相汇，项目四面环街。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际依托粤西南核心区位优势、珠三角产业转移和家居建材行业大升级的历史机遇，定位为&ldquo;</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡粤西南家居建材专业市场&rdquo;，是一个批发、零售相结合的，集商品交易、仓储物流、电子商务、金融服务、商务配套等十大主要功能于一体，涵盖家具、壁纸、卫浴、陶瓷、灯饰、五金、地板、橱柜、门业、窗帘布艺、家电、床上用品、工艺品、楼梯、石材、油漆、成型材、木业、餐饮娱乐、装潢中心、环境监测、仓储物流、商住配套等二十三大类丰富的业态，通过&ldquo;六大统一、十大保障、</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">3</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">年</span><span lang="EN-US" style="font-size:\r\n9.0pt;line-height:150%">2</span><span style="font-size:9.0pt;line-height:150%;\r\nfont-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">亿巨资市场推广和自持六成物业&rdquo;等措施，建成后将成为规模最大、档次最高、品种最齐全、产品最新颖、价格最合理、服务最完善的粤西南一站式家居建材专业大市场</span>。</p>\r\n<div align="center">\r\n	&nbsp;</div>\r\n<p>\r\n	&nbsp;</p>\r\n<hr />\r\n', '华科国际家居生活广场工程进度理想。目前，一期十五栋楼已经部分二层结顶、部分一层浇筑完成。展示中心地下室开发完成，1-14轴砖模完成。', 1329814049, 1358257267, 1, 1, 1, 6, 0, '2012-02-12', 1, '1', 'no', '/uploads/_thumbs/Images/pad.png', 'http://www.huakegroup.com/fla/gj/hkgj.rar', 'http://www.huakegroup.com/broche.html', '阳江华科国际生活家居广场'),
+(202, 4, '/uploads/images/p2.png', '平板电脑', '平板电脑，10寸', '', '<p>\r\n	<strong>项目位置：</strong>浙江省舟山市<br />\r\n	<strong>占地面积：约</strong>200亩<br />\r\n	<strong>建筑面积：</strong>约20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省舟山市，总占地约200亩，总投资额约10亿元，总建筑面积达20万㎡，为舟山市规模最大的专业家居建材市场，是浙江省服务业重大项目，舟山市重点建设项目项目是集产品交易、设计、会展、仓储、休闲观光、科研及教育培训、电子商务、金融结算及商住配套等多功能于一体的综合型交易中心及大型家居&ldquo;Shopping Mall&rdquo;。</p>\r\n', '', 1328399487, 1358258881, 0, 1, 1, 4, 0, '2012-02-11', 1, '1', 'no', '', '', '', ''),
+(205, 4, '/uploads/images/p1.png', '平板电脑', '平板电脑，10寸', '', '<p>\r\n	<strong>项目位置：</strong>浙江省舟山市<br />\r\n	<strong>占地面积：约</strong>200亩<br />\r\n	<strong>建筑面积：</strong>约20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省舟山市，总占地约200亩，总投资额约10亿元，总建筑面积达20万㎡，为舟山市规模最大的专业家居建材市场，是浙江省服务业重大项目，舟山市重点建设项目项目是集产品交易、设计、会展、仓储、休闲观光、科研及教育培训、电子商务、金融结算及商住配套等多功能于一体的综合型交易中心及大型家居&ldquo;Shopping Mall&rdquo;。</p>\r\n', '', 1328399487, 1358258349, 0, 1, 1, 4, 0, '2012-02-11', 1, '1', 'no', '', '', '', ''),
+(206, 4, '/uploads/images/p2.png', '平板电脑', '平板电脑，10寸', '', '<pre><strong>开发时间：</strong>2011年 正在开发中&hellip;&hellip;</pre><pre><strong>项目位置：</strong>广东省阳江市\r\n<strong>占地面积：</strong>223674㎡\r\n<strong>建筑面积：</strong>50万㎡</pre>\r\n<p>\r\n	<strong><br />\r\n	项目概况：</strong><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">家居建材是每户家庭装修时必须购置的大宗商品，属刚性需求。据不完全统计，仅阳江地区就蕴含了上千亿家居建材市场需求；保守估计，未来十年内整个粤西南更是高达</span><span lang="EN-US" style="line-height: 150%; text-indent: 18pt; font-size: 9pt; ">3000</span><span style="line-height: 150%; text-indent: 18pt; font-size: 9pt; font-family: 宋体; ">亿市场需求。面对强大的家居建材市场需求，而正处于快速发展中的阳江，包括周边地区竟然没有一家专业的家居建材市场。华科国际应势而生，填补市场空白！同时，市政府批复：在今后五年内不在安排或建设同类项目！</span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">以项目为核心的</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">分钟车程内，涵盖了核心商圈（阳春、阳西、电白、海陵岛、江城、阳东、恩平、台山靠近阳江的几个乡镇等）近</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">400</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万消费人群。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际雄踞粤西南中心枢纽城市&mdash;&mdash;阳江，地处约</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">6300</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡的滨海新城核心位置，阳江高速公路出口处，</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">40</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">米街宽的城市主干道广雅路和政府规划的华科南路以及华科北路在此相汇，项目四面环街。</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="text-indent:18.0pt;mso-char-indent-count:2.0;\r\nline-height:150%">\r\n	<span style="font-size:9.0pt;line-height:150%;font-family:\r\n宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">华科国际依托粤西南核心区位优势、珠三角产业转移和家居建材行业大升级的历史机遇，定位为&ldquo;</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">50</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">万㎡粤西南家居建材专业市场&rdquo;，是一个批发、零售相结合的，集商品交易、仓储物流、电子商务、金融服务、商务配套等十大主要功能于一体，涵盖家具、壁纸、卫浴、陶瓷、灯饰、五金、地板、橱柜、门业、窗帘布艺、家电、床上用品、工艺品、楼梯、石材、油漆、成型材、木业、餐饮娱乐、装潢中心、环境监测、仓储物流、商住配套等二十三大类丰富的业态，通过&ldquo;六大统一、十大保障、</span><span lang="EN-US" style="font-size:9.0pt;line-height:150%">3</span><span style="font-size:9.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:\r\nArial;mso-hansi-font-family:Arial">年</span><span lang="EN-US" style="font-size:\r\n9.0pt;line-height:150%">2</span><span style="font-size:9.0pt;line-height:150%;\r\nfont-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial">亿巨资市场推广和自持六成物业&rdquo;等措施，建成后将成为规模最大、档次最高、品种最齐全、产品最新颖、价格最合理、服务最完善的粤西南一站式家居建材专业大市场</span>。</p>\r\n<div align="center">\r\n	&nbsp;</div>\r\n<p>\r\n	&nbsp;</p>\r\n<hr />\r\n', '华科国际家居生活广场工程进度理想。目前，一期十五栋楼已经部分二层结顶、部分一层浇筑完成。展示中心地下室开发完成，1-14轴砖模完成。', 1329814049, 1358257267, 1, 1, 1, 6, 0, '2012-02-12', 1, '1', 'no', '/uploads/_thumbs/Images/pad.png', 'http://www.huakegroup.com/fla/gj/hkgj.rar', 'http://www.huakegroup.com/broche.html', '阳江华科国际生活家居广场'),
+(208, 4, '/uploads/images/p1.png', '平板电脑', '平板电脑，10寸', '', '<p>\r\n	<strong>项目位置：</strong>浙江省舟山市<br />\r\n	<strong>占地面积：约</strong>200亩<br />\r\n	<strong>建筑面积：</strong>约20万㎡</p>\r\n<hr />\r\n<p>\r\n	&nbsp;<strong>项目概况：</strong>项目位于浙江省舟山市，总占地约200亩，总投资额约10亿元，总建筑面积达20万㎡，为舟山市规模最大的专业家居建材市场，是浙江省服务业重大项目，舟山市重点建设项目项目是集产品交易、设计、会展、仓储、休闲观光、科研及教育培训、电子商务、金融结算及商住配套等多功能于一体的综合型交易中心及大型家居&ldquo;Shopping Mall&rdquo;。</p>\r\n', '', 1328399487, 1358258349, 0, 1, 1, 4, 0, '2012-02-11', 1, '1', 'no', '', '', '', '');
 
 -- --------------------------------------------------------
 
 --
--- 表的结构 `product_image`
+-- 表的结构 `maxtron_product_image`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_product_image` (
@@ -751,46 +748,27 @@ CREATE TABLE IF NOT EXISTS `maxtron_product_image` (
   `weight` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `product_id` (`product_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=166 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=169 ;
 
 --
--- 转存表中的数据 `product_image`
+-- 转存表中的数据 `maxtron_product_image`
 --
 
 INSERT INTO `maxtron_product_image` (`id`, `product_id`, `filename`, `thumb`, `type`, `weight`) VALUES
-(165, 80, '/uploads/images/pad.png', '/uploads/_thumbs/Images/pad.png', 2, 0),
+(166, 80, '/uploads/_thumbs/Images/p1.png', '/uploads/_thumbs/Images/p1.png', 2, 0),
 (123, 80, '/uploads/images/bgzy/yangjiang/2.13/20110803.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110803.JPG', 1, 0),
 (124, 80, '/uploads/images/bgzy/yangjiang/2.13/20110804.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110804.JPG', 1, 0),
 (125, 80, '/uploads/images/bgzy/yangjiang/2.13/20110806.jpg', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110806.jpg', 1, 0),
 (126, 80, '/uploads/images/bgzy/yangjiang/2.13/20110808.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110808.JPG', 1, 0),
 (127, 80, '/uploads/images/bgzy/yangjiang/2.13/20110811.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110811.JPG', 1, 0),
 (128, 80, '/uploads/images/bgzy/yangjiang/2.13/20110819.jpg', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110819.jpg', 1, 0),
-(65, 194, '/uploads/images/xgt/phc/2012c35.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c35.jpg', 2, 0),
-(66, 194, '/uploads/images/xgt/phc/2012c36.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c36.jpg', 2, 0),
-(67, 194, '/uploads/images/xgt/phc/2012c37.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c37.jpg', 2, 0),
-(68, 194, '/uploads/images/xgt/phc/2012c38.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c38.jpg', 2, 0),
-(69, 194, '/uploads/images/xgt/phc/2012c39.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c39.jpg', 2, 0),
-(70, 194, '/uploads/images/xgt/phc/2012c40.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c40.jpg', 2, 0),
-(71, 194, '/uploads/images/xgt/phc/2012c41.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c41.jpg', 2, 0),
-(72, 194, '/uploads/images/xgt/phc/2012c42.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c42.jpg', 2, 0),
-(73, 194, '/uploads/images/xgt/phc/2012c43.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c43.jpg', 2, 0),
-(74, 194, '/uploads/images/xgt/phc/2012c44.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c44.jpg', 2, 0),
-(76, 194, '/uploads/images/xgt/phc/2012c45.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c45.jpg', 2, 0),
-(77, 194, '/uploads/images/xgt/phc/2012c46.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c46.jpg', 2, 0),
-(78, 194, '/uploads/images/xgt/phc/2012c47.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c47.jpg', 2, 0),
-(79, 194, '/uploads/images/xgt/phc/2012c48.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c48.jpg', 2, 0),
-(80, 194, '/uploads/images/xgt/phc/2012c49.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c49.jpg', 2, 0),
-(81, 194, '/uploads/images/xgt/phc/2012c50.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c50.jpg', 2, 0),
-(82, 194, '/uploads/images/xgt/phc/2012c51.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c51.jpg', 2, 0),
-(83, 194, '/uploads/images/xgt/phc/2012c52.jpg', '/uploads/_thumbs/Images/xgt/phc/2012c52.jpg', 2, 0),
+(167, 194, '/uploads/_thumbs/Images/p2.png', '/uploads/_thumbs/Images/p2.png', 2, 0),
 (86, 198, '/uploads/images/xgt/hf/008%202012.jpg', '/uploads/_thumbs/Images/xgt/hf/008%202012.jpg', 2, 0),
 (87, 198, '/uploads/images/xgt/hf/009%202012.jpg', '/uploads/_thumbs/Images/xgt/hf/009%202012.jpg', 2, 0),
 (88, 198, '/uploads/images/xgt/hf/010%202012.jpg', '/uploads/_thumbs/Images/xgt/hf/010%202012.jpg', 2, 0),
 (89, 198, '/uploads/images/xgt/hf/011%202012.jpg', '/uploads/_thumbs/Images/xgt/hf/011%202012.jpg', 2, 0),
 (90, 198, '/uploads/images/xgt/hf/012%202012.jpg', '/uploads/_thumbs/Images/xgt/hf/012%202012.jpg', 2, 0),
-(108, 196, '/uploads/images/xgt/zs/20124.jpg', '/uploads/_thumbs/Images/xgt/zs/20124.jpg', 2, 0),
-(106, 196, '/uploads/images/xgt/zs/20122.jpg', '/uploads/_thumbs/Images/xgt/zs/20122.jpg', 2, 0),
-(121, 196, '/uploads/images/xgt/zs/20122.jpg', '/uploads/_thumbs/Images/xgt/zs/20122.jpg', 2, 0),
+(168, 196, '/uploads/_thumbs/Images/pad.png', '/uploads/_thumbs/Images/pad.png', 2, 0),
 (142, 80, '/uploads/images/bgzy/yangjiang/2.13/20110824a.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110824a.JPG', 1, 0),
 (143, 80, '/uploads/images/bgzy/yangjiang/2.13/20110824b.JPG', '/uploads/_thumbs/Images/bgzy/yangjiang/2.13/20110824b.JPG', 1, 0),
 (117, 199, '/uploads/images/xgt/zs/sq.jpg', '/uploads/_thumbs/Images/xgt/zs/sq.jpg', 2, 0),
@@ -804,7 +782,7 @@ INSERT INTO `maxtron_product_image` (`id`, `product_id`, `filename`, `thumb`, `t
 -- --------------------------------------------------------
 
 --
--- 表的结构 `product_register`
+-- 表的结构 `maxtron_product_register`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_product_register` (
@@ -831,7 +809,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_product_register` (
 -- --------------------------------------------------------
 
 --
--- 表的结构 `product_section`
+-- 表的结构 `maxtron_product_section`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_product_section` (
@@ -847,7 +825,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_product_section` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=59 ;
 
 --
--- 转存表中的数据 `product_section`
+-- 转存表中的数据 `maxtron_product_section`
 --
 
 INSERT INTO `maxtron_product_section` (`id`, `product_id`, `name`, `summary`, `thumb`, `picture`, `issue_date`) VALUES
@@ -888,7 +866,7 @@ INSERT INTO `maxtron_product_section` (`id`, `product_id`, `name`, `summary`, `t
 -- --------------------------------------------------------
 
 --
--- 表的结构 `tree`
+-- 表的结构 `maxtron_tree`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_tree` (
@@ -901,7 +879,7 @@ CREATE TABLE IF NOT EXISTS `maxtron_tree` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=84 ;
 
 --
--- 转存表中的数据 `tree`
+-- 转存表中的数据 `maxtron_tree`
 --
 
 INSERT INTO `maxtron_tree` (`id`, `lft`, `rgt`, `level`, `name`) VALUES
@@ -934,7 +912,7 @@ INSERT INTO `maxtron_tree` (`id`, `lft`, `rgt`, `level`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的结构 `user`
+-- 表的结构 `maxtron_user`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_user` (
@@ -952,17 +930,17 @@ CREATE TABLE IF NOT EXISTS `maxtron_user` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
--- 转存表中的数据 `user`
+-- 转存表中的数据 `maxtron_user`
 --
 
 INSERT INTO `maxtron_user` (`userid`, `username`, `password`, `realname`, `email`, `profile`, `regIp`, `regTime`, `lastLoginIp`, `lastLoginTime`) VALUES
-(1, 'admin', '5f5ad28c16a9fc5c746ecfee94a1444f', NULL, 'alan5316@tom.com', NULL, '119.136.177.86', '2012-01-01 21:26:29', '::1', '2013-01-12 13:16:48'),
+(1, 'admin', '5f5ad28c16a9fc5c746ecfee94a1444f', NULL, 'alan5316@tom.com', NULL, '119.136.177.86', '2012-01-01 21:26:29', 'fe80::1', '2013-01-15 21:39:04'),
 (3, 'emma', 'eca772e8935aad7698014f513d7cf3f1', NULL, 'alan5316@tom.com', NULL, '119.123.205.129', '2012-01-10 22:04:10', NULL, NULL);
 
 -- --------------------------------------------------------
 
 --
--- 表的结构 `website`
+-- 表的结构 `maxtron_website`
 --
 
 CREATE TABLE IF NOT EXISTS `maxtron_website` (
@@ -974,16 +952,16 @@ CREATE TABLE IF NOT EXISTS `maxtron_website` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
 
 --
--- 转存表中的数据 `website`
+-- 转存表中的数据 `maxtron_website`
 --
 
 INSERT INTO `maxtron_website` (`id`, `name`, `value`, `autoload`) VALUES
 (1, 'webstate', '1', 1),
 (2, 'closereason', '网站升级', 1),
 (3, 'footer', '&#169; 2009 - 2009 hopejy.com All rights reserved.', 1),
-(4, 'sitename', '华科国际 华科集团 阳江华科国际  华科国际广场 华科国际家居生活广场 阳江市华科市场投资有限公司 商业地产 商业 家居卖场 华科', 1),
-(5, 'keywords', '华科国际 华科集团 阳江华科国际  华科国际广场 华科国际家居生活广场 阳江市华科市场投资有限公司 商业地产 商业 家居卖场 华科', 1),
-(6, 'description', '华科国际 华科集团 阳江华科国际  华科国际广场 华科国际家居生活广场 阳江市华科市场投资有限公司 商业地产 商业 家居卖场 华科', 1),
+(4, 'sitename', 'maxtron 手机', 1),
+(5, 'keywords', 'maxtron 手机', 1),
+(6, 'description', 'maxtron 手机', 1),
 (7, 'seotitle', '11122', 1),
 (8, 'address', '268 GuangYa Road, Yangjinag, Guangdong,, China ', 1),
 (9, 'phone', '0662-689999', 1),

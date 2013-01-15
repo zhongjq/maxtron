@@ -61,8 +61,9 @@ pName:"home",
         <div class="nk-nps-end nk-left"></div>    
     </div>
     
-    <a href="/cn-zh/">
-                <img src="//r.nokia.com/s/8/ui_lib/c0010/nk_nokia_logo.png?v=0" class="nk-title-logo nk-onscreen" alt="Nokia" title="Nokia" /><img src="//r.nokia.com/s/8/ui_lib/c0010/nk_nokia_logo_blue.png?v=0" class="nk-hide" alt="Nokia" title="Nokia" /></a>
+    <a href="/">
+                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.png" class="nk-title-logo nk-onscreen" alt="maxtron" title="maxtron" />
+            </a>
         </div>
         
         <div class="nk-relative">
@@ -72,7 +73,7 @@ pName:"home",
     	<ul class="nk-main_menu_home">
     		<li id="nk-li-home" class="nk-home nk-home_rounding">
     			<div class="nk-li_content nk-home_image">
-    				<a href="/" title="maxtron"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/home_icon.png?v=0" alt="maxtron" title="maxtron" /></a></div>
+    				<a href="/" title="maxtron"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/home_icon.png" alt="maxtron" title="maxtron" /></a></div>
     		</li>
     		
     		<li id="nk-li-products"><div class="nk-li_content"><a href="<?=$this->createUrl('/product');?>">Product</a></div>
@@ -131,7 +132,7 @@ pName:"home",
     		<div id="nk-search-button-icon" class="nk-search-field-icon">	
     			<img src="//r.nokia.com/s/8/ui_lib/c0080/magnifying_glass.png?v=0" alt="提交" /></div>
     		<div id="nk-search-button" class="nk-search_button nk-header_search_button_gradient nk-search_box_shadow nk-search_button_roundings"></div>
-    		<input class="nk-search-button-input" type="submit" title="提交" value="" />
+    		<input class="nk-search-button-input" type="button" title="提交" value="" />
     		<input type="hidden" name="action" value="siteSearch" />
     	</form>
     </div>
@@ -164,11 +165,11 @@ pName:"home",
 	<div class="nk-upper-footer-wrapper">
 		<div class="nk-upper-footer">
 			<div class="nk-footer-logo-container">
-	<img src="<?=Yii::app()->theme->baseUrl?>/images/footer-logo.png" class="nk-footer-logo" alt="Nokia" title="Nokia"><ul class="nk-footer-list-right">
+	<img src="<?=Yii::app()->theme->baseUrl?>/images/footer-logo.png" class="nk-footer-logo" alt="Maxtron" title="Maxtron"><ul class="nk-footer-list-right">
 		<li class="nk-quick_links_element nk-generic-bold">
 					<div class="nk-quick_links-chevron"></div>
 					<div class="nk-left">
-						<a href="#" target="_blank">About Nokia</a></div>
+						<a href="#" target="_blank">About Maxtron</a></div>
 				</li>
 			<li class="nk-quick_links_element nk-generic-bold">
 					<div class="nk-quick_links-chevron"></div>
@@ -199,10 +200,10 @@ $(document).ready(function() {
 				<li><a href="/us-en/products/verizon/">Verizon Phones</a></li>
 				<li><a href="/us-en/products/t-mobile/">T-Mobile Phones</a></li>
 				<li><a href="/us-en/products/accessories/">Accessories</a></li>
-				<li><a href="/us-en/products/nokia-for-business/">Nokia for business</a></li>
+				<li><a href="/us-en/products/nokia-for-business/">Maxtron for business</a></li>
 				<li><a href="/us-en/products/products/">All phones</a></li>
 				<li><a href="/us-en/products/switch/">#Switch</a></li>
-				<li><a href="/us-en/products/pureview/">Nokia PureView</a></li>
+				<li><a href="/us-en/products/pureview/">Maxtron PureView</a></li>
 				</ul>
 			</div>
 	</div>
@@ -210,7 +211,7 @@ $(document).ready(function() {
 		<div class="nk-footer-r2-inner" style="height: 251px;">
 			<h2><a href="/us-en/apps/" class="nk-footer-link-column-heading">Apps</a></h2>
 			<ul>
-				<li><a href="/us-en/apps/nokia/">Apps by Nokia</a></li>
+				<li><a href="/us-en/apps/nokia/">Apps by Maxtron</a></li>
 				<li><a href="/us-en/apps/latest/">Latest apps</a></li>
 				</ul>
 			</div>
@@ -228,7 +229,7 @@ $(document).ready(function() {
 	<div class="nk-footer-link-column nk-footer-link-column-4 nk-footer-r2" style="height: 251px;">
 		<div class="nk-footer-r2-inner" style="height: 251px;">
 			<h2>Quick links</h2>
-			<ul><li><a href="http://www.nokia.com/us-en/products/products/?intc=ncomprod-fw-ilc-bdy-cellphones_0x0-quicklinks-nokiacom-us-en-1todtmtcfdc37" target="_self">Nokia Cell Phones</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia920/specifications/" target="_self">Nokia Lumia 920 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia820/specifications/" target="_self">Nokia Lumia 820 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia810/specifications/" target="_self">Nokia Lumia 810 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/lumia/?intc=ncomprod-fw-ilc-bdy-lumiarange_0x0-quicklinks-nokiacom-us-en-1todtmt72b173" target="_self">Nokia Windows Phones</a></li><li><a href="http://www.nokia.com/us-en/products/accessory/bh-220/?intc=ncomprod-fw-ilc-bdy-bh220_0x0-quicklinks-nokiacom-us-en-1todtmtac9580" target="_self">Bluetooth Headset</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia920/buy-now/" target="_self">Nokia Lumia 920 Price</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia820/buy-now/" target="_self">Nokia Lumia 820 Price</a></li></ul></div>
+			<ul><li><a href="http://www.nokia.com/us-en/products/products/?intc=ncomprod-fw-ilc-bdy-cellphones_0x0-quicklinks-nokiacom-us-en-1todtmtcfdc37" target="_self">Maxtron Cell Phones</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia920/specifications/" target="_self">Maxtron Lumia 920 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia820/specifications/" target="_self">Maxtron Lumia 820 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia810/specifications/" target="_self">Maxtron Lumia 810 Specifications</a></li><li><a href="http://www.nokia.com/us-en/products/lumia/?intc=ncomprod-fw-ilc-bdy-lumiarange_0x0-quicklinks-nokiacom-us-en-1todtmt72b173" target="_self">Maxtron Windows Phones</a></li><li><a href="http://www.nokia.com/us-en/products/accessory/bh-220/?intc=ncomprod-fw-ilc-bdy-bh220_0x0-quicklinks-nokiacom-us-en-1todtmtac9580" target="_self">Bluetooth Headset</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia920/buy-now/" target="_self">Maxtron Lumia 920 Price</a></li><li><a href="http://www.nokia.com/us-en/products/phone/lumia820/buy-now/" target="_self">Maxtron Lumia 820 Price</a></li></ul></div>
 	</div>
 	<img src="<?=Yii::app()->theme->baseUrl;?>/images/telephone.png" style="float:right" />
 	</div>
@@ -244,7 +245,7 @@ $(window).load(function() {
 		<div class="nk-footer-bottom-panel">
 	<div class="nk-footer-bottom-panel-content">
 		<ul class="nk-footer-bottom-panel-left">
-			<li class="nk-footer-bottom-panel-item nk-footer-bottom-panel-copyright-text">© 2013 Nokia</li>
+			<li class="nk-footer-bottom-panel-item nk-footer-bottom-panel-copyright-text">© 2013 Maxtron</li>
 		    <li class="nk-footer-bottom-panel-item">
 						<a href="http://www.nokia.com/us-en/privacy/privacy/" class="nk-footer-bottom-panel-link">Privacy</a></li>
 				<li class="nk-footer-bottom-panel-item">
@@ -270,7 +271,7 @@ var nkUnsupportedBrowsers = [{"msie": 6                   }];
 <div id="nk-unsupported" class="nk-unsupp-bg nk-gray-text">	
     <div class="nk-unsupp-bg-text nk-left">
 	    
-                    <p>For a better Nokia.com experience, please view the website with Microsoft Internet Explorer 9</p>
+                    <p>For a better Maxtron.com experience, please view the website with Microsoft Internet Explorer 9</p>
                 </div>
     <a class="nk-right nk-unsupp-close"></a>
     <div class="nk-clear-both"></div>
@@ -278,7 +279,7 @@ var nkUnsupportedBrowsers = [{"msie": 6                   }];
 	try {
 		$(document).ready(function() {
 			var clickStreamImage = new Image;		
-            clickStreamImage.src = "http://int.europe.nokia.com/c/c?pa=us:en:home&r="+encodeURIComponent(document.referrer);			
+            clickStreamImage.src = "http://int.europe.Maxtron.com/c/c?pa=us:en:home&r="+encodeURIComponent(document.referrer);			
 		});
 	} catch(e) {}
     </script>
