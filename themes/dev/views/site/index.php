@@ -77,7 +77,8 @@ var carouselObj = $("#nk-hero").data('jcarousel');
 <div class="nk-col-lc nk-all-border">
 	<div class="nk-drop-shadow nk-below-carousel" id="nk-lower-promo-teasers">
 <?php foreach ($digest as $m):?>
-<div id="nk-prombox2075080" class="nk-teaser nk-link-div" style="background-image: url('<?=$m->icon?>');">
+<div id="nk-prombox2075080" class="nk-teaser nk-link-div" style="background-image: url('<?=$m->icon?>'); background-repeat: no-repeat;
+background-position: center center;">
 	<h2><?=$m->title;?></h2>
 	<div class="nk-teaser-subheading"><?=$m->summary;?></div>
 	<a href="#" data-intc="na-fw-ilc-na-nokia_promo_home_2050_buy-na-home-cn-zh-2075080">

@@ -43,7 +43,7 @@
             <div class="prod_bg">
                 <?php echo CHtml::link(CHtml::image($model->icon,$model->title,array('class'=>product_img_small)),array('show','id'=>$model->id)); ?>
             </div>
-            <?php echo CHtml::link($model->title,array('product/show','id'=>$model->id)); ?>
+            <?php echo CHtml::link($model->title,"#"); ?>
         </div>
         
 	-->
@@ -51,7 +51,7 @@
 	<div class="content_main" style="float:left; width:130px; text-align:center;">
 	<div style="margin-left:0px;margin-top:30px; height:220px">
 	
-	<?php echo CHtml::link(CHtml::image($model->icon,$model->title,array('class'=>product_img_small, 'style' => 'width:120px')),array('show','id'=>$model->id)); ?>
+	<?php echo CHtml::link(CHtml::image($model->icon,$model->title,array('class'=>product_img_small, 'style' => 'width:120px')),"#"); ?>
 	</div>
 	<div style="font-weight: bolder; font-size:14px; float:left;margin-left:20px;"><span style="color: #d11113"><?php echo $model->title;?></span><br />
 	<?php echo $model->summary;?><br>

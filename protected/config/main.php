@@ -60,6 +60,7 @@ return array(
 			// uncomment the following to use MySQL as database
 			//'class'=>'application.extensions.PHPPDO.CPdoDbConnection',
       		//'pdoClass' => 'PHPPDO',
+      		//58.64.153.37 sq_maxtron maxtron000 
 			'connectionString'=>'mysql:host=localhost;dbname=maxtron',
 			'username'=>'root',
 			'password'=>'su',
